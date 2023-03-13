@@ -6,10 +6,7 @@
 body {
   font-family: cabin;
 }
-@font-face {
-  font-family: ;
-  src: url("./fonts/");
-}
+
 @font-face {
   font-family: ubu-medium;
   src: url("./fonts/Ubuntu-Medium.ttf");
@@ -73,12 +70,7 @@ ul li a {
   font-size: 15px;
   font-family: cabin-medium;
 }
-.navbar img {
-  /* margin-left: 90px;
-  width: 99px;
-  height: 32.58px;
-  object-fit: contain; */
-}
+
 .btn {
   background-color: #8807f7;
   color: white;
