@@ -1,0 +1,38 @@
+body {
+  font-family: cabin-regular;
+}
+
+@font-face {
+  font-family: cabin-regular;
+  src: url(./fonts/CabinetGrotesk-Regular.otf);
+}
+
+@font-face {
+  font-family: cabin-bold;
+  src: url(./fonts/CabinetGrotesk-Bold.otf);
+}
+.maindiv {
+  margin: 2px;
+  min-height: 200px;
+  background-color: lightpink;
+  text-align: center;
+  font-size: large;
+  color: ;
+}
+.head {
+  background-image: url(https://i.postimg.cc/mkWmDNjN/shutterstock.jpg);
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 50;
+  height: 100vh;
+}
+.content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.breadcrumb-item a {
+  text-decoration: none;
+}

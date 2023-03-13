@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: cabin;
+}
+@font-face {
+  font-family: ;
+  src: url("./fonts/");
+}
+@font-face {
+  font-family: ubu-medium;
+  src: url("./fonts/Ubuntu-Medium.ttf");
+}
+
+@font-face {
+  font-family: cabin;
+  src: url("./fonts/CabinetGrotesk-Regular.otf");
+}
+
+@font-face {
+  font-family: cabin-bold;
+  src: url("./fonts/CabinetGrotesk-Bold.otf");
+}
+@font-face {
+  font-family: cabin-extra;
+  src: url("./fonts/CabinetGrotesk-Extrabold.otf");
+}
+@font-face {
+  font-family: cabin-medium;
+  src: url("./fonts/CabinetGrotesk-Medium.otf");
+}
+@font-face {
+  font-family: cabin-thin;
+  src: url("./fonts/CabinetGrotesk-Thin.otf");
+}
+@font-face {
+  font-family: cabin-light;
+  src: url("./fonts/CabinetGrotesk-Extralight.otf");
+}
+.header {
+  width: 1440px;
+  height: 90px;
+  padding: 122px auto;
+  padding-bottom: 40px;
+}
+.navbar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+ul {
+  display: inline-flex;
+  margin: 30px auto;
+}
+ul img {
+  margin-top: -5px;
+  margin-right: 20px;
+}
+ul li {
+  list-style-type: none;
+  margin: 0 50px;
+}
+ul li a {
+  text-align: center;
+  text-decoration: none;
+  color: #3d0072;
+  font-weight: 500;
+  width: 63px;
+  line-height: 17.2px;
+  font-size: 15px;
+  font-family: cabin-medium;
+}
+.navbar img {
+  /* margin-left: 90px;
+  width: 99px;
+  height: 32.58px;
+  object-fit: contain; */
+}
+.btn {
+  background-color: #8807f7;
+  color: white;
+  font-size: 10px;
+  font-weight: 100;
+  line-height: 17.36px;
+  border: none;
+  border-radius: 79.82px;
+  padding: 8.71px;
+}
+.section {
+  background-image: url(bg.png);
+  width: auto;
+  height: 953px;
+}
+.main{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+h2{
+  width: 587px;
+  font-family: cabin-bold;
+  padding-top: 50px;
+  color: #e8356d;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 110px;
+  margin-left: 50px;
+}
+h5{
+    /* width: 528px; */
+    height: 90px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    color: #3d0072;
+
+}
+p {
+    margin: auto;
+  text-align: center;
+  padding-top: 90px;
+  width: 528px;
+  height: 90px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 30px;
+  color: #3d0072;
+  
+}
+.send {
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+  font-family: cabin-bold;
+  color: #3d0072;
+  width: 572px;
+  height: 92px;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 91.92px;
+}
+.request {
+  margin: auto;
+  text-align: center;
+  padding-top: 120px;
+  font-family: cabin-extra;
+  color: white;
+  width: 572px;
+  height: 92px;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 91.92px;
+}
+.pr {
+  margin: auto;
+  padding-top: 100px;
+  text-align: center;
+  width: 528px;
+  height: 90px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 30px;
+  color: white;
+  margin-bottom: 200px;
+}
+.sec {
+  background-image: url(Rectangle\ 375.png);
+  height: 800px;
+  margin-bottom: 200px;
+}
+.miil {
+  background-image: url(https://i.postimg.cc/wM4j7Lfv/Rectangle-17-1.png);
+  /* width: 1464px; */
+  height: 725px;
+}
+.mili {
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding-left: 50px;
+}
+.mili img {
+  margin-top: -100px;
+}
+.first-lane {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  color: #fff;
+  list-style-type: none;
+}
+.first-lane button {
+  margin-left: 5px;
+  border: 0.6px solid white;
+  padding: 0px 6px 0px 6px;
+
+  border-radius: 100px;
+  color: white;
+  font-size: 1px;
+  line-height: 16px;
+  font-weight: 400;
+  font-family: cabin-thin;
+  background-color: #8807f7;
+}
+.first-lane li {
+  font-family: cabin;
+  font-size: 13px;
+  line-height: 12px;
+  font-weight: 400;
+  margin-top: 40px;
+}
+
+.third-lane h1 {
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 12px;
+  font-family: cabin;
+  color: white;
+}
+.third-lane p {
+    color: #fff;
+  font-family: cabin;
+  font-size: 13px;
+  line-height: 12px;
+}
+.fourth-lane  p {
+  /* margin-top: 30px; */
+  margin-left: 100px;
+}
+.fourth-lane h2 {
+  color: #fff;
+  font-family: cabin;
+  font-size: 13px;
+  line-height: 32px;
+  font-weight: 400;
+}
