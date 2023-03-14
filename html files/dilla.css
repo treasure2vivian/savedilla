@@ -75,6 +75,9 @@ ul li a {
   font-family: cabin-medium;
 }
 
+  
+  
+
 .btn {
   background-color: #8807f7;
   color: white;
@@ -84,6 +87,15 @@ ul li a {
   border: none;
   border-radius: 79.82px;
   padding: 8.71px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.pointer{
+    transition: ease-in-out;
+    transition-delay: 100;
+    opacity: 0.6;
+    transition: 0.3s;
+    
 }
 .section {
   background-image: url(bg.png);
@@ -94,8 +106,8 @@ ul li a {
     margin-top: 70px;
     margin-left: 40px;
 }
-h2{
-    padding-top: 50px;
+.maindiv h1{
+    padding-top:90px;
   width: 587px;
   font-family: cabin-bold;
   padding-top: 50px;
@@ -105,7 +117,7 @@ h2{
   line-height: 110px;
   
 }
-h5{
+.maindiv h5 {
     font-family: cabin-medium;
     height: 90px;
     font-weight: 500;
@@ -163,7 +175,7 @@ p {
   margin-bottom: 200px;
 }
 .sec {
-  background-image: url(Rectangle\ 375.png);
+  background-image: url(https://i.postimg.cc/13bTDnDc/Rectangle-375.png);
   height: 800px;
   margin-bottom: 200px;
 }
