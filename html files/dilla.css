@@ -48,13 +48,17 @@ body {
   align-items: flex-start;
   justify-content: space-evenly;
 }
+ 
+
+ 
 ul {
   display: inline-flex;
   margin: 30px auto;
 }
 ul img {
-  margin-top: -5px;
+  margin-top: -20px;  
   margin-right: 20px;
+  object-fit: contain;
 }
 ul li {
   list-style-type: none;
@@ -87,10 +91,11 @@ ul li a {
   height: 953px;
 }
 .main{
-    margin-top: 20px;
+    margin-top: 70px;
     margin-left: 40px;
 }
 h2{
+    padding-top: 50px;
   width: 587px;
   font-family: cabin-bold;
   padding-top: 50px;
@@ -98,10 +103,10 @@ h2{
   font-weight: 700;
   font-size: 90px;
   line-height: 110px;
-  margin-left: 50px;
+  
 }
 h5{
-    /* width: 528px; */
+    font-family: cabin-medium;
     height: 90px;
     font-weight: 500;
     font-size: 15px;
@@ -147,7 +152,7 @@ p {
 }
 .pr {
   margin: auto;
-  padding-top: 100px;
+  padding-top: 120px;
   text-align: center;
   width: 528px;
   height: 90px;
